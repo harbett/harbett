@@ -1,0 +1,33 @@
+.cont-circles{
+    width: 200px;
+    height: 400px;
+    margin: 1em;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: $border-cyan;
+    &:nth-child(1){
+        margin-bottom: .5em;
+    }
+}
+
+.large{
+    width: 220px;
+    height: 400px;
+    border-radius: 100px;
+    border: $border-cyan;
+    margin: 1em;
+}
+
+.square{
+    width: 700px;
+    height: 400px;
+    border-radius: 90px;
+    border: $border-cyan;
+    margin: 1em;
+}
+
+

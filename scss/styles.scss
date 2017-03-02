@@ -1,0 +1,25 @@
+//IMPORTS 
+
+@import "config";
+
+//LAYOUT
+@import "layout/header";
+@import "layout/slider";
+@import "layout/categories";
+@import "layout/footer";
+@import "layout/about";
+@import "layout/contact";
+
+//Base Styles
+@import "base/base";
+
+//MODULES
+@import "modules/buttons";
+@import "modules/cards";
+
+//COMPONENTS
+@import "components/features";
+@import "components/bar";
+@import "components/slide";
+@import "components/slogans";
+

@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+    position: fixed;
+    background: $black;
+    padding-bottom: 1.5em;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+    .lang{
+        .select__lang{
+            display: flex;
+            width: 100px;
+            margin: auto;
+            p{
+                padding: 0 .5em;
+                &:nth-child(1){
+                    border-right: 1px solid #EEE;
+                }
+            }
+        }
+    }
+
+}
+
+
+

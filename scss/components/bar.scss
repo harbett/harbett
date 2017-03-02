@@ -1,0 +1,17 @@
+.bar{
+    width: 4em;
+    height: 100vh;
+    background: $black;
+    .bar-h{
+        height: 75px;
+        display: flex;
+        margin-left: .5em;
+        a{
+            margin-top: 1em;
+            .h_img{
+                width: 70%;
+                margin: auto;
+            }
+        }
+    }
+}

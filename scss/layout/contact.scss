@@ -1,0 +1,31 @@
+.contact-main{
+    width: 100%;
+    display: flex;
+    background: $cyan;
+    justify-content: space-between;
+    .question{
+        width: 35vh;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        p{
+            position: relative;
+            color:$white;
+            font-size: 5em;
+            font-weight: $bold;
+        }
+    }
+    .form{
+        width: 70vh;
+        height: 60vh;
+        flex-direction: column;
+        align-self: center;
+    }
+    .prefer{
+        width: 40vh;
+        height: 60vh;
+        flex-direction: column;
+        align-self: center;
+    }
+}

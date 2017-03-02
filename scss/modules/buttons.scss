@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color: $cyan;
+    .button__nav{
+        width: 180px;
+        text-align: center;
+        border: $border-grey;
+        padding: .4em 1.5em .4em 1.5em;
+        border-radius: 25px;
+        cursor: pointer;
+    &:hover{
+        background: $cyan;
+        color: $white;  
+        }
+    }
+}
+
+.a-about{
+    text-decoration: none;
+    margin: auto;
+    color: $white;
+    text-align: center;
+    .btn-about{
+        width: 100px;
+        height: 50px;
+        display: flex;
+        position: absolute;
+        bottom: 1em;
+        right: 3em;
+        margin-bottom: 0;
+        border-radius: 25px;
+        color: $white;
+        border: $border-cyan;
+        p{
+            margin: auto;
+        }
+        &:hover{
+            background: white;
+            color: $cyan;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.about-main{
+    width: 100%;
+    display: flex;
+    .image{
+        width: 45vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: $white;
+        .img-avatar{
+            width: 40vh;
+            height: 40vh;
+            margin: auto;
+            .avatar{
+                width: 100%;
+            }
+        }
+    }
+    .description{
+        width: 70%;
+        margin-right: 0;
+        height: 100vh;
+        padding-right: 2.5em;
+        .name{
+            text-align: right;
+        }
+        .sub-title{
+            text-align: right;
+            margin-top: -2em;
+        }
+        .comment{
+            width: 90%;
+            text-align: right;
+            font-size: 150%;
+            color: $grey;
+            float: right;
+            margin-top: 2em;
+            font-weight: 300;
+            font-style: italic;
+        }
+    }
+}
